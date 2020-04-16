@@ -1,0 +1,72 @@
+/* nasmedia.css */
+
+@charset "utf-8";
+
+/* reset.css */
+html, body{width:100%; height:100%;}
+html, body,
+h1,h2,h3,h4,h5,h6,
+p,pre,div,img,ul,ol,li,dl,dt,dd{margin:0; padding:0; border:0; 
+	                            behavior:url('../../ie/pie/PIE.htc');}
+ul,ol,li{list-style:none;}
+
+/* common.css */
+.hidden {display:block; position:absolute; z-index:-1;
+         width:0; height:0; overflow:hidden;}
+
+/* #design.css */
+#wrap {width:1920px; height:auto; min-height:800px; background-color:#ccc;}
+
+
+
+/* headerBox=================================== */
+#headerBox {position:fixed; z-index:700; top:0; left:0;
+           width:inherit; height:110px; 
+           }
+
+ .full_size {width:100%; height:938px;
+             background-color:#af4}
+
+
+
+#naviBox { width:1740px; height:100%; margin:0 90px; background-color:#777;}
+.header_navi > ul {width:100%; height:60px; margin-top:-50px; text-align:center; line-height:60px;}
+
+
+h1 {float:left; margin:50px 50px 0 0;}
+
+
+
+ .unb {float:left; width:40px; height:30px; padding:10 9;
+       background-color:#767; font-size:10px;}
+
+ .gnb {float:right; width:600px; height:100%;  font-size:16px; background-color: #555;}
+
+
+
+
+   /*.unb > ul > li {float:left; width:auto; height:14%; margin-right:6px; background-color:#fff;}*/
+
+   .gnb > ul > li {float:left;}
+   .gnb > ul > li a {display:block; width:86px; height:30px;}
+
+/* viewBox======================================== */
+#viewBox {background-color:#787}
+ .guide_cont_01 {}
+
+/* #visionBox====================================== */
+#visionBox {background-color:#767}
+
+/* serviceBox===================================== */
+#serviceBox {background-color:#aaa;}
+
+/* siteBox======================================== */
+#siteBox {background-color:#999;}
+
+/* nasmediasideBox================================== */
+#nasmediasideBox{display:none;}
+
+/* footBox========================================== */
+#footBox{background-color:#131313;}
+
+

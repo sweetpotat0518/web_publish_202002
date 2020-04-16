@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ko=KR">
+<!-- a_basic_layout_01.html -->
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!--[if IE]>
+		<script src="./ie/html5shiv/dist/html5shiv.min.js"></script>
+	<![endif]-->
+	<title>layout 연습하기1</title>
+	<!-- css -->
+	<style>
+		/* reset.css */
+		html, body{width:100%; height:100%;}
+		html, body,
+		h1,h2,h3,h4,h5,h6,
+		p,pre,div,img,ul,ol,li,dl,dt,dd{margin:0; padding:0;}
+		ul,ol,li{list-style:none;}
+
+		header,article,section,aside,nav,footer,main,figure{display:block;}
+
+
+
+		/* design */
+		#box{margin:200px auto;
+			width:600px; height:auto;}
+
+		#headBox{width:100%; height:100px; background-color:pink;
+			padding:10px; box-sizing:border-box;}
+		  #headBox > h1{float:left; width:80px; height:80px; background-color:#fff;}
+		  #navBox{float:right; margin-top:30px; width:400px; height:50px; background-color:#fff;}
+
+
+
+		#sectionBox{width:100%; height:auto;}
+		.article_area{float :left; width:70%; height:150px; background-color:#f7f;}
+		.container_area{float:left; width:70%; height:150px; background-color:#f41;}
+		.aside_area{float :right; margin-top:-150px; width:30%; height:300px; background-color:#f06;}
+
+		.pan{clear:both; width:100%; height:0; background-color:#777;}
+
+		#footerBox{width:100%; height:100px; background-color:blue;}
+
+
+
+	</style>
+</head>
+<body>
+	<!-- layout -->
+	<div id="box">
+		<!-- #headerBox -->
+		<header id="headBox">
+			<h1>site name</h1>
+			<nav id="navBox"></nav>
+			</ul>
+		</header>
+		<!-- // #headerBox -->
+
+		<!-- #sectionBox -->
+		<section id="sectionBox">
+			<article class="article_area"></article>
+			<article class="container_area"></article>
+			<asdie class="aside_area"></asdie>
+			
+
+			<div class="pan"></div>
+		</section>
+		<!-- // #sectionBox -->
+
+		<!-- #footerBox -->
+		<footer id="footerBox">
+			footer
+		</footer>
+		<!-- // #footerBox -->
+
+		
+	</div>
+	<!--script -->
+	<script></script>
+</body>
+	
+</html>

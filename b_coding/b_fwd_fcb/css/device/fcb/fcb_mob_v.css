@@ -1,0 +1,176 @@
+/* fcb_mob_v.css */
+@media screen and (max-width: 639px){
+
+
+/* design data : 320px */
+/* #headBox================================================ */
+h1 {margin: auto;}
+  .gnb_01, .gnb_07 {float: left; width: 33%; height: 47px; 
+           max-width: 849px; max-width: 53.0625rem;
+           padding:10px; box-sizing: border-box;
+           border-right: .1rem solid #29283d;
+           background-color: #0A0927; color: #fff; text-align: center;}
+  .gnb_03 {float: left; width: 34%; height: 47px; 
+           max-width: 849px; max-width: 53.0625rem;           
+           padding:10px; box-sizing: border-box;
+           border-right: .1rem solid #29283d;
+           background-color: #0A0927; color: #fff; text-align: center;}
+
+   
+
+
+
+  .gnb_02, .gnb_04, .gnb_05, .gnb_06 {max-width: 849px; max-width: 53.0625rem; display: none;}
+
+  .unb_01, .unb_02, .unb_03 {max-width: 849px; max-width: 53.0625rem; display: none;}
+
+  .unb a {width: 100%; width: 100%; margin: auto; padding: 5px;}
+
+  .gnb_01 a {padding:10px 15px;}
+  .gnb_03 a {padding:10px 15px;}
+  .gnb_07 a {padding:10px 15px;}
+  /* // #headBox===================================================== */
+
+
+
+
+/* #viewBox============================================== */
+#viewBox {height: 600px; height: 187.5vw;  
+          max-height: 780px; max-height: 48.75rem;}
+          /*min-height: 210px; min-height: 13.125rem;
+          max-height: 300px; max-height: 18.75rem;}*/
+
+  .view_area {width: 100%; height: 100%; height: 187.5vw;
+              max-height: 780px; max-height: 48.75rem;
+              background-color: #fff;}
+  /* //#viewBox==============================================              */
+
+
+
+
+/* #contentBox================================================= */
+#contentBox {height: 480px; height: 150vw;
+             max-height: 700px; max-height: 43.75rem;}
+             
+
+ 
+  .contBox_01 {width: 100%; height: 190px; height: 59.375vw; 
+               max-height: 330px; max-height: 20.625rem; background-color: #212147;}
+  .contBox_02 {float: left; width: 50%; height: 190px; height: 59.375vw;
+               max-height: 200px; max-height: 12.5rem;  background-color: #cd122d;}
+  .contBox_03 {float: right; width: 50%; height: 190px; height: 59.375vw; 
+               max-height: 200px; max-height: 12.5rem;  background-color: #fdc52c;}
+
+  .trophyBox {width: 100%; height: 100px; height: 31.25vw;
+              max-height: 170px; max-height: 10.625rem;}
+  .trophy {float: left; width: 25%; height: 100px; height: 31.25vw;
+           max-height: 170px; max-height: 10.625rem;}
+  .trophy_01 {background-color: #aaa;}
+  .trophy_02 {background-color: #a17;}
+  .trophy_03 {background-color: #b4c;}
+  .trophy_04 {background-color: #ccc;}
+/* // #contentBox================================================= */
+
+
+/* #newsBox===================================================== */
+#newsBox {height: 400px; height: 125vw; padding:10px; box-sizing: border-box;
+          min-height: 400px; min-height: 25rem;
+          max-height: 799px; max-height: 49.9375rem;}
+
+  .news_area {width: 100%; height: 100%; height: 125vw; background-color: #8a8989;}
+  .titleBox {float: right; width: 100%; height: 40px; height: 12.5vw;}
+  #newsBox h2 {float: left;}
+  .dayBox {float: right; width: 70px; height: 20px; margin-top: 10px; background-color: #fff;}
+
+  .news_full {float: left; width: 100%; margin-top: 10px;}
+  .news_topBox {height: 70px; height: 21.875vw;}
+    .player_img_01 {float: left;  width: 40%; height: 100%; height: 21.875vw; background-color: #fff;}
+    .player_img_02 {float: right; width: 40%; height: 100%; height: 21.875vw; background-color: #fff;}
+
+  .news_midBox {height: 140px; height: 43.75vw; background-color: #343938;}
+
+  .news_bottomBox {height: 100px; height: 31.25vw;}
+    .videoBox_01 {float: left; width: 45%; height: 100%; height: 31.25vw; background-color: #fff;}
+    .videoBox_02 {float: right; width: 45%; height: 100%; height: 31.25vw; background-color: #fff;}
+    .videoBox_03 {max-width: 639px; max-width: 39.9375rem; display: none;}
+    .videoBox_04 {display: none; }
+/* // #newsBox===================================================== */
+
+  
+
+/* #infoBox_01=================================================== */
+#infoBox_01 {height: 300px; height: 93.75vw;}
+            
+  .widget_title {width: 100%; height: 40px; background-color: #181733;}
+  .position_button {float: left; width: 70px; height: 30px; margin: 5px 10px;  background-color: #fff;}
+  #infoBox_01 h2 {float: left; margin: auto;}
+  .button {float: right; width: 70px; height: 20px; margin: 10px; background-color: #fff;}
+
+  .playerBox_01 {width: 300px; height: 210px; height: 65.625vw; margin: auto; background-color: #fff;}
+  .playerBox_02, .playerBox_03 {display: none;}
+  .indicator {width: 100%; height: 50px; padding:20px 0; box-sizing: border-box;}
+  .player_sider {width: 100px; height: 10px; margin: auto; background-color: #fff;}
+/* // #infoBox_01 =================================================== */
+
+
+
+
+
+/* #infoBox_02========================================= */
+#infoBox_02 {height: 300px; height: 93.75vw;}
+            
+  #infoBox_02 h2 {float: left;  margin: auto;}
+/* // #infoBox_02========================================== */
+
+
+
+
+
+/* #shopBox===================================================== */
+#shopBox {height: auto;}
+  #shopBox h2 {float: left; margin-left: 130px;}
+  .shop_area {width: 300px; height: 138px; height: 43.125vw; margin: auto;}
+    .goods1{float: left; width: 145px; height: 130px; height: 40.625vw; background-color: #ccc;}
+    .goods2 {float: right; width: 145px; height: 130px; height: 40.625vw; background-color: #ccc;}
+    .goods3, .goods4 {display: none;}
+
+  .indicator_01 {width: 100%; height: 40px; padding: 15px; box-sizing: border-box;}
+  .shop_sider {width: 100px; height: 10px; margin: auto; background-color: #fff;}
+
+  .siteBox {width: 100%; height: 100px; height: 31.25vw;}
+  .site_area {width: 100%; height: 100px; height: 31.25vw; padding:10px; padding: 3.125vw; box-sizing: border-box; background-color: #ccc;}
+  .site_01 {float: left;  width: 30%; height: 80px; height: 25vw; margin-left: 15px; margin-left: 4.6875vw; background-color: #fff;}
+  .site_01:first-child {margin-left: 0;}
+  /* // #shopBox======================================================= */
+    
+
+
+
+/* #sns_menuBox=================================================== */
+#sns_menuBox {height: auto;} 
+  .snsBox {width: 100%; height: auto; padding:10px; padding: 3.125vw; box-sizing: border-box; background-color: #313130;}
+  .facebook {float: left; width: 25%; height: 80px; background-color: #4231DD;}
+  .youtube {float: left; width: 25%; height: 80px; background-color: #bb0000;}
+  .twitter {float: left; width: 25%; height: 80px; background-color: #55acee;}
+  .instagram {float: left; width: 25%; height: 80px; background-color: #CE45AA;}
+
+
+  .menu_01 {float: left; width: 50%; height: auto; height: 46.875vw; background-color: #181733;}
+  .menu_01 li {width: 100%; height: 30px; margin-top: 5px; color:#fff; text-align: center;}
+  /* // #sns_menuBox============================================== */
+
+
+
+
+
+
+/* #footBox=============================================== */
+  .fcbBox {width: 100%; height: 40px; background-color: #fff;}
+  .fnb_area {width: 100%; height: 80px; background-color: #181733;}
+  .fnb_menu {width: 100%; height: 20px; color:#fff; text-align: center;}
+  .fnb {width: 80%; height: 30px; margin: auto; background-color: #aaa;}
+/* // #footBox===================================================== */
+
+
+/* @media end */
+}

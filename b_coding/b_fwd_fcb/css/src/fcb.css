@@ -1,0 +1,10 @@
+/* fcb.css */
+
+@charset "utf-8";
+
+@import url(../device/fcb/fcb_base.css);
+@import url(../device/fcb/fcb_mob_v.css);
+@import url(../device/fcb/fcb_mob_h.css);
+@import url(../device/fcb/fcb_tab.css);
+@import url(../device/fcb/fcb_pc.css);
+@import url(../device/fcb/fcb_pcfull.css);

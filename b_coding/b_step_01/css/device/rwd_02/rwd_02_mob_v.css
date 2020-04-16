@@ -1,0 +1,32 @@
+/* rwd_02_mob_v.css */
+
+/* design data 320 */
+@media screen and (max-width: 479px){
+  
+
+  /*#headBox {height: 40px;
+            height: 12.5vw;
+            max-height: 60px;
+            max-height: 3.75rem;
+            }*/
+
+  #viewBox {padding-top:50px;
+            height: 480px;
+            height: 150vw;
+            min-height: 480px;
+            min-height: 30rem;
+            max-height: 660px;
+            max-height: 41.25rem; 
+            }
+
+  #contentBox {height: 480px; height: 150vw;}
+  
+  #infoBox {height: 480px ;height: 150vw;}
+
+  #footBox {height: 40px;}
+
+
+
+
+/* @media end */
+}

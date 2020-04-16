@@ -1,0 +1,28 @@
+/* responsive_layout_mobile.css */
+
+/* design data : 320px */
+@media screen and (max-width:639px) {
+    /* 가로브라우저 320 기준 - vw기준 320동일*/
+
+
+  
+  #viewBox {height: 120px; 
+            height: 37.5vw;
+            min-height: 7.5rem;
+            max-height: 405px;
+            max-height: 25.3125rem;
+          }
+
+  #noticeBox {height: 150px;
+              height: 70.3125vw;
+              min-height: 150px;
+              min-height: 46.875rem;
+              max-height: 225px;
+              max-height: 70.3125rem;
+                }
+
+
+
+
+/* @media end */
+}

@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* responsive_layout.css */
+
+@import url("../device/responsive_layout_base.css");
+@import url("../device/responsive_layout_mobile.css");
+@import url("../device/responsive_layout_tablet.css");
+@import url("../device/responsive_layout_pc.css");
+@import url("../device/responsive_layout_pcfull.css");
+
+
+/*@media screen and (min-width:1920px) {
+  #wrap {background-color: #ff0;}
+  h1 {width: 20%; height: 10vh;}
+ */
+
+
+/* @media end */
+}

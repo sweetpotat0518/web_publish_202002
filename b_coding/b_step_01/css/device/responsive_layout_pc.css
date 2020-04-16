@@ -1,0 +1,14 @@
+/* responsive_layout_pc.css */
+
+/* design data : 1024px ~ 1440px */
+@media screen and (min-width:1024px max-width:1439px) {
+ #viewBox {height: 555px;
+           height: 34.6875rem;
+           
+         }
+
+
+ 
+
+/* @media end */  
+}

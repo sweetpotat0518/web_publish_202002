@@ -1,0 +1,174 @@
+/* fcb_pc.css */
+
+
+@media screen and (min-width: 1440px) and (max-width: 1919px){
+/* design data : 1440px */
+
+
+/* #headBox */
+h1 {float: left;}
+
+.navBox {width: 720px; height: 60px;}
+.unb {float: right; width: 40%; height: 43px;
+        background-color: #fff;}
+
+  .unb_01, .unb_02 {float: left; width: 30%; height: 100%;
+                    padding:10px; box-sizing: border-box;
+                    border-right: .1rem solid #29283d;
+                    background-color: #0A0927; color: #fff; text-align: center;}
+   
+  .unb_03 {float: left; width: 40%; height: 100%; 
+           padding:10px; box-sizing: border-box;  background-color: #154284; color: #fff; text-align: center;}
+.gnb {float: left; width: 100%; height: 47px;
+        background-color: #181733;}
+
+  .gnb_full {float: left; width: 18%; height: 100%;
+             padding:10px; box-sizing: border-box; 
+             border-right: .1rem solid #29283d;
+             background-color: #181733; color: #fff; text-align: center;}
+  .gnb_06 {float: left; width: 10%; height: 100%; 
+           padding:10px; box-sizing: border-box; background-color: #181733; color: #fff; text-align: center;}
+  .gnb_full a {padding:4px 50px;}
+  .gnb_06 a {padding:4px 20px;}
+
+  .gnb_07 {display: none;}
+
+  .unb a {width: 100%; width: 100%; margin: auto; padding:0 13px;}
+
+
+
+
+
+
+/* #viewBox =====================================*/
+#viewBox {height: 850px; height: 53.125rem;}
+  .view_area {width: 100%; height: 100%; height: 76.171875vw; 
+              max-height: 850px; max-height: 53.125rem;  background-color: #fff;}
+/* // #viewBox =====================================*/
+
+
+
+
+/* #contentBox */
+#contentBox {height: 700px; height: 68.359375vw;
+             min-height: 700px; min-height: 43.75rem;
+             max-height: 780px; max-height: 48.75rem;}
+
+  .contBox_01 {float: left; width: 33%; height: 630px; height: 39.375rem; background-color: #212147;}
+  .contBox_02 {float: left; width: 34%; height: 630px; height: 39.375rem; background-color: #cd122d;}
+  .contBox_03 {float: left; width: 33%; height: 630px; height: 39.375rem; background-color: #fdc52c;}
+
+  .trophyBox {width: 100%; height: 170px; height: 10.625rem;}
+  .trophy {float: left; width: 25%; height: 170px; height: 10.625rem;}
+  .trophy_01 {background-color: #aaa;}
+  .trophy_02 {background-color: #a17;}
+  .trophy_03 {background-color: #b4c;}
+  .trophy_04 {background-color: #ccc;}
+
+
+
+
+/* #newsBox */
+#newsBox {height: auto;  padding:10px; box-sizing: border-box; max-width: 1260px; margin:auto;}
+.news_area {width: 100%; height: 100%;background-color: #8a8989;}
+  .titleBox {float: right; width: 100%; height: 40px;}
+  #newsBox h2 {float: left;}
+  .dayBox {float: right; width: 70px; height: 20px; margin-top: 10px; background-color: #fff;}
+
+  .news_full {float: left; width: 100%; margin-top: 30px;}
+  .news_topBox {height: 224px; height: 14rem;}
+    .player_img_01 {float: left;  width: 40%; height: 224px; background-color: #fff;}
+    .player_img_02 {float: right; width: 40%; height: 224px; background-color: #fff;}
+
+  .news_midBox {height: 448px; height: 28rem; background-color: #343938;}
+
+  .news_bottomBox {height: 400px; height: 25rem;}
+    .videoBox_01 {float: left; width: 30%; height: 80%; background-color: #fff;}
+    .videoBox_02 {float: right; width: 30%; height: 80%; background-color: #fff;}
+    .videoBox_03 {float: left; width: 15%; height: 40%; margin-left: 30px; background-color: #fff;}
+    .videoBox_04 {float: right; width: 15%; height: 40%; margin-right: 30px; background-color: #fff;}
+
+
+
+
+/* #infoBox_01 */
+#infoBox_01 {height: auto;
+             max-width: 1260px; margin:auto;
+             min-height: 600px; min-height: 37.5rem;
+             max-height: 640px; max-height: 40rem;}
+
+  .widget_title {width: 100%; height: 40px; background-color: #181733;}
+  .position_button {float: left; width: 70px; height: 30px; margin: 5px 10px;  background-color: #fff;}
+  #infoBox_01 h2 {float: left; margin: auto;}
+  .button {float: right; width: 70px; height: 20px; margin: 10px; background-color: #fff;}
+
+  .playerBox_01 {width: 300px; height: 210px; height: 65.625vw; 
+                 min-height: 300px; min-width: 18.75rem; 
+                 max-height: 510px; max-height: 31.875rem;
+                 margin: 20px auto 10px; background-color: #fff;}
+  
+  .indicator {width: 100%; height: 50px; padding:20px 0; box-sizing: border-box;}
+  .player_sider {width: 100px; height: 10px; margin: auto; background-color: #fff;}
+
+
+
+
+/* #infoBox_02 */
+#infoBox_02 {height: auto;
+             max-width: 1260px; margin:auto;
+             min-height: 600px; min-height: 37.5rem;
+             max-height: 640px; max-height: 40rem;}
+
+
+
+
+/* #shopBox */
+#shopBox {height: auto; max-width: 1260px; margin:auto;}
+#shopBox h2 {float: left; margin-left: 130px;}
+  .shop_area {width: 98%; height: auto; margin: auto; padding: 0 30px; box-sizing: border-box;}
+    .goods1, .goods2, .goods3, .goods4{float: left; width: 24%; height: 416px; margin: 10px 5px; margin:0.694444vw 0.347222vw; background-color: #ccc;}
+   
+    .goods4:last-child {margin-right: 0;}
+
+  .indicator_01 {width: 100%; height: 40px; padding: 15px; box-sizing: border-box;}
+  .shop_sider {width: 100px; height: 10px; margin: auto; background-color: #fff;}
+
+  .siteBox {width: 100%; height: auto;}
+  .site_area {width: 100%; height: 160px; margin-top: 70px; padding:10px; padding: 0.694444vw; box-sizing: border-box; background-color: #ccc;}
+  .site_01 {float: left;  width: 30%; height: 100%; margin-left: 30px; background-color: #fff;}
+
+
+
+
+/* #snsmenuBox ===================================*/
+#sns_menuBox {height: auto; max-width: 1260px; margin:auto;}
+  .snsBox {width: 100%; height: auto; padding:10px; box-sizing: border-box; background-color: #181733;}
+  .sns {float: left; width: 23%; height: 80px; margin: 1%;
+        /*max-width: 1024px;*/}
+  .facebook {background-color: #4231DD;}
+  .youtube {background-color: #bb0000;}
+  .twitter {background-color: #55acee;}
+  .instagram {background-color: #CE45AA;}
+
+
+  
+  .menu_01 {float: left; width: 50%; height: auto; background-color: #181733;}
+  .menu_01 li {width: 100%; height: 30px; margin-top: 5px; color: #fff; text-align: center;}
+/* // #snsmenuBox ===================================*/
+
+
+
+
+/*#footBox======================================*/
+.fnbmenuBox {width: 80%; height: auto; margin: auto; max-width: 1260px;}
+  .fcbBox {float: left; width: 30%; height: 40px; background-color: #fff;}
+  .fnb_area {margin:auto; max-width: 1260px;}
+  .fnb_menu {float: left; width: 15%; height: 20px; max-width: 1260px; margin:10px 15px; background-color: #181733; color: #fff; text-align: center}
+  .fnb_menu:last-child {margin-right: 0;}
+  .fnb {width: 80%; height: 30px; max-width: 1260px; margin: auto; background-color: #aaa;}
+  /* // #footBox======================================*/
+
+
+
+/* @media end */
+}
